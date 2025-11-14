@@ -1,9 +1,8 @@
 <!-- Banner / Logo (Optional) -->
-<!--
 <p align="center">
-  <img src="https://raw.githubusercontent.com/swiftreply-ai/.github/main/assets/logo.png" width="120" />
+  <img src="https://raw.githubusercontent.com/swiftreply-ai/.github/logo_banner.png" width="120" />
 </p>
--->
+
 
 <h1 align="center">🔥 SwiftReply AI</h1>
 
