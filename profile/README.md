@@ -1,65 +1,86 @@
+<!-- Banner / Logo (Optional) -->
+<!--
+<p align="center">
+  <img src="https://raw.githubusercontent.com/swiftreply-ai/.github/main/assets/logo.png" width="120" />
+</p>
+-->
 
-<!-- <p align="center"> -->
-  <!--<img src="https://raw.githubusercontent.com/swiftreply-ai/.github/main/assets/logo.png" width="120" />-->
-<!-- </p>-->
-
-<h1 align="center">SwiftReply AI</h1>
-<p align="center">Intelligent, context-aware reply generation for email, chat, customer support, and workflow automation.</p>
+<h1 align="center">🔥 SwiftReply AI</h1>
 
 <p align="center">
-  <a href="https://github.com/swiftreply-ai/swiftreply-ai-sdk">SDK</a> • 
-  <a href="https://github.com/swiftreply-ai/swiftreply-ai-docs">Docs</a> • 
-  <a href="https://github.com/swiftreply-ai/swiftreply-ai-examples">Examples</a> • 
+  <strong>AI-powered, context-aware reply generation for email, chat, customer support & workflow automation.</strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/swiftreply-ai/swiftreply-ai-sdk">SDK</a> •
+  <a href="https://github.com/swiftreply-ai/swiftreply-ai-docs">Docs</a> •
+  <a href="https://github.com/swiftreply-ai/swiftreply-ai-examples">Examples</a> •
   <a href="https://github.com/swiftreply-ai/swiftreply-ai-website">Website</a> •
   <a href="https://github.com/swiftreply-ai/swiftreply-ai-showcase">Showcase</a>
 </p>
 
----
-
-## 🚀 What is SwiftReply AI?
-
-**SwiftReply AI** is a next-generation platform for generating intelligent, personalized, and context-aware replies for:
-
-- ✉️ Email  
-- 💬 Chat & messaging  
-- 🎧 Customer support  
-- 🧾 Internal communication  
-- 🧠 Automated workflows  
-
-Designed for speed, accuracy, and developer-friendly integration.
+<p align="center">
+  <a href="https://github.com/swiftreply-ai"><img src="https://img.shields.io/badge/org-SwiftReply%20AI-black?style=for-the-badge&logo=github"></a>
+  <a href="https://www.linkedin.com/in/tapasmahanta"><img src="https://img.shields.io/badge/Founder-Tapas%20Mahanta-blue?style=for-the-badge&logo=linkedin"></a>
+</p>
 
 ---
 
-## 🔓 Public Repositories
+## ⚡ What is SwiftReply AI?
+
+SwiftReply AI helps individuals and businesses craft intelligent, personalized, and highly contextual replies across multiple communication channels.
+
+### Built for:
+- ✉️ **Emails**  
+- 💬 **Messaging & chat**  
+- 🎧 **Customer support agents**  
+- 🧾 **Team communication**  
+- 🔄 **Automated workflows**  
+
+Its core engine is optimized for:
+- ⚡ Speed  
+- 🎯 Accuracy  
+- 🧠 Context awareness  
+- 🧩 Easy developer integration  
+
+---
+
+## 🌐 Public Repositories
+
+A clean separation between **public developer tools** and **internal infrastructure**.
+
+### 🟦 Developer-Facing Repos (Public)
 
 | Repository | Description |
 |-----------|-------------|
-| **swiftreply-ai-sdk** | Official JavaScript/TypeScript SDK |
-| **swiftreply-ai-docs** | Public documentation & API reference |
-| **swiftreply-ai-examples** | Example apps & integrations |
-| **swiftreply-ai-website** | Public marketing & landing site |
-| **swiftreply-ai-showcase** | Product demos, screenshots, architecture |
-| **swiftreply-ai-cli** | Command-line interface for SwiftReply AI |
+| 🔌 **[swiftreply-ai-sdk](https://github.com/swiftreply-ai/swiftreply-ai-sdk)** | Official TypeScript SDK for SwiftReply AI |
+| 📘 **[swiftreply-ai-docs](https://github.com/swiftreply-ai/swiftreply-ai-docs)** | API docs, guides, onboarding & architecture |
+| 🧪 **[swiftreply-ai-examples](https://github.com/swiftreply-ai/swiftreply-ai-examples)** | Ready-to-run demos & integrations |
+| 🌐 **[swiftreply-ai-website](https://github.com/swiftreply-ai/swiftreply-ai-website)** | Public marketing & landing website |
+| 🖼️ **[swiftreply-ai-showcase](https://github.com/swiftreply-ai/swiftreply-ai-showcase)** | Product screenshots, demo videos, workflows |
+| 🛠 **[swiftreply-ai-cli](https://github.com/swiftreply-ai/swiftreply-ai-cli)** | CLI for interacting with SwiftReply AI |
 
 ---
 
-## 🔒 Private Repositories (Internal)
+## 🔒 Internal Repositories (Private)
 
 | Repository | Description |
 |-----------|-------------|
-| **swiftreply-ai-core** | Core backend engine & orchestration |
-| **swiftreply-ai-models** | Model training & inference logic |
-| **swiftreply-ai-infra** | Infrastructure, CI/CD, IaC & security |
-| **swiftreply-ai-ui** | Internal dashboard & platform UI |
+| ⚙️ **swiftreply-ai-core** | Core backend engine, API gateway, orchestration |
+| 🧬 **swiftreply-ai-models** | Training pipelines, inference & evaluation |
+| ☁️ **swiftreply-ai-infra** | IaC, Kubernetes, CI/CD, secrets, monitoring |
+| 🖥 **swiftreply-ai-ui** | Internal admin dashboard & platform UI |
 
 ---
 
-## 🧪 Basic Example
+## 🧪 Quick Demo (SDK)
 
 ```ts
 import SwiftReply from "@swiftreply-ai/sdk";
 
-const client = new SwiftReply({ apiKey: process.env.SR_API_KEY });
+const client = new SwiftReply({
+  apiKey: process.env.SR_API_KEY,
+});
 
 const reply = await client.reply({
   prompt: "Follow up politely about the pending document.",
@@ -67,37 +88,37 @@ const reply = await client.reply({
 
 console.log(reply.output);
 ```
+## 🔗 More examples:
+[https://github.com/swiftreply-ai/swiftreply-ai-examples](https://github.com/swiftreply-ai/swiftreply-ai-examples)
 
-More examples → https://github.com/swiftreply-ai/swiftreply-ai-examples
+## 🎥 Product Showcase:
+Screenshots, demo video, API samples, workflows & architecture:
 
----
+[➡️ https://github.com/swiftreply-ai/swiftreply-ai-showcase](https://github.com/swiftreply-ai/swiftreply-ai-showcase)
 
-## 🖥 Showcase
+## 🛣️ Roadmap Highlights
 
-Screenshots, demo videos, Postman collection & architecture:  
-➡️ https://github.com/swiftreply-ai/swiftreply-ai-showcase
+- 🧠 Context Memory Engine
+- 🔌 Gmail / Outlook Integrations
+- 🤝 Customer Support Integrations (Zendesk, Intercom, Freshdesk)
+- 🛠 Workflow Builder (UI)
+- 📈 Usage Analytics
+- 🛡️ Enterprise Suite (SAML, RBAC, Audit Logs)
 
----
+Full roadmap will be made public soon.
 
 ## 🤝 Contributing
 
-Public contributions are accepted for:
+We welcome contributions to:
 
-- SDK  
-- Docs  
-- Examples  
-- CLI  
+- SDK
+- Docs
+- Examples
+- CLI
 
----
+Open PRs are reviewed quickly and we maintain high-quality engineering standards.
 
-## 👤 Maintainer
 
-**Tapas Mahanta (Founder & Lead Engineer)**  
-GitHub → https://github.com/tapas100  
-LinkedIn → https://www.linkedin.com/in/tapasmahanta  
-
----
-
-## ⭐ Support the Project
-
-If you like the project, give it a **star ⭐** on GitHub!
+## 👤 Maintainer & Founder
+### 👨‍💻 Tapas Mahanta
+Founder & Lead Engineer
